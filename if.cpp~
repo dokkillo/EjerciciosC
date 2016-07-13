@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int x = 10;
+  int result;
+  cout << "dime un numero a ver si es mayor que el mio" << endl;
+  cin >> result;
+  if(cin > result)
+    {
+      cout  << "El numero es mayor\n";
+    }
+  else
+    {
+      cout << "el num es menor\n";
+    }
+}
+
+
